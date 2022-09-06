@@ -1,0 +1,54 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333;
+    background-color: #eee ;
+    font-size: 20px;
+    line-height: 1.75 ;
+    font-weight: 100;
+}
+
+article{
+    max-width: 800;
+    margin:auto;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+
+ul{
+    list-style: circle;
+}
+
+sup{
+    color: #090;
+}
+
+del{
+    text-decoration: line-through;
+    text-decoration-style: wavy ;
+    text-decoration-color: #ff6565 ;
+    color: #aeaeae 
+}
+
+li{
+    padding: 1rem, 0;
+
+}
+
+li:nth-child(even){
+    background-color: #ddd  
+}
+
+ul{
+    padding:0;
+}
+
+
