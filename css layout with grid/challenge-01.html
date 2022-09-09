@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  
+  <h1>Example</h1>
+  
+  <!-- Grid Container -->
+  <div class="container">
+  
+    <div class="box a"></div>
+    <div class="box b"></div>
+    <div class="box c"></div>
+    <div class="box d"></div>
+    <div class="box e"></div>
+    <div class="box f"></div>
+    <div class="box g"></div>
+    <div class="box h"></div>
+    <div class="box i"></div>
+  
+  </div>
+  
+  <style>
+    /* Challenge: Make a grid with 3 columns */
+    /* Your styles here */
+  
+    .container {
+      /* display grid */
+      display: grid;
+      /* Make three equal columns with grid-template-columns 1fr 1fr 1fr */
+      grid-template-columns: 50px,50px,50px;
+      /* Set the gap between the columns and rows with grid-gap 1rem */
+      grid-gap: 1rem;
+      grid-template-areas: 
+      'a b c'
+      'd e f'
+      'g h i';
+    }
+  
+  
+  
+    /* Some default styles to get you started */
+    .box {
+      height: 150px;
+    }
+  
+    .a {
+      background-color: #e40b0b;
+      grid-area:a;
+    }
+  
+    .b {
+      background-color: #ffed65;
+      grid-area:b;
+    }
+  
+    .c {
+      background-color: #0ee719;
+      grid-area:c;
+    }
+  
+    .d {
+      background-color: #55b5ec;
+      grid-area:d;
+    }
+  
+    .e {
+      background-color: #06742a;
+      grid-area:e;
+    }
+  
+    .f {
+      background-color: #e42edb;
+      grid-area:f;
+    }
+  
+    .g {
+      background-color: #66410a;
+      grid-area:g;
+    }
+  
+    .h {
+      background-color: #e99a40;
+      grid-area:h;
+    }
+  
+    .i {
+      background-color: #58e9ce;
+      grid-area:i;
+    }
+  </style>
+
+</body>
+</html>
